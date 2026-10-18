@@ -1,12 +1,14 @@
 {{ define "main" }}
+<header class="gm-pagehead">
+  <div class="container gm-narrow text-center">
+    <h1>{{ .Title }}</h1>
+    <p class="gm-lead">{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}</p>
+  </div>
+</header>
 <section class="section">
   <div class="container">
-    <div class="section-title">
-      <h1>{{ .Title }}</h1>
-      {{ with .Content }}<div>{{ . }}</div>{{ end }}
-    </div>
     {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
-    <div class="row">
+    <div class="row g-4">
       {{ range $paginator.Pages }}<div class="col-md-6 col-lg-4">{{ partial "post-card.html" . }}</div>{{ end }}
     </div>
     {{ partial "pagination.html" . }}

@@ -1,21 +1,32 @@
 {{ define "main" }}
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <article class="col-lg-9 post-single">
-        <nav aria-label="breadcrumb"><ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-          <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
-          <li class="breadcrumb-item active" aria-current="page">{{ .Title | truncate 60 }}</li>
-        </ol></nav>
-        <h1 class="mb-2">{{ .Title }}</h1>
-        <p class="text-muted"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></p>
-        {{ with .Params.featured_image }}<img class="img-fluid rounded mb-4" src="{{ . }}" alt="{{ $.Title }}">{{ end }}
-        <div class="post-content">{{ .Content }}</div>
-        {{ partial "article-prevnext.html" . }}
-        {{ partial "related_posts.html" . }}
-      </article>
-    </div>
+<header class="gm-pagehead">
+  <div class="container gm-narrow">
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">{{ partial "t.html" (dict "id" "Beranda" "en" "Home") }}</a></li>
+      <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
+    </ol></nav>
+    <h1>{{ .Title }}</h1>
+    <p class="gm-meta"><i class="far fa-calendar"></i> <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time> <span class="gm-dot">&bull;</span> <i class="far fa-clock"></i> {{ .ReadingTime }} {{ partial "t.html" (dict "id" "menit baca" "en" "min read") }}</p>
   </div>
+</header>
+<section class="gm-article">
+  <div class="container gm-narrow">
+    {{ if and .Params.toc (ge .WordCount (int site.Params.tocMinWordCount)) }}
+    <details class="gm-toc" open>
+      <summary>{{ partial "t.html" (dict "id" "Daftar Isi" "en" "Table of Contents") }}</summary>
+      {{ .TableOfContents }}
+    </details>
+    {{ end }}
+    <div class="post-content">{{ .Content }}</div>
+    <aside class="gm-cta">
+      <div>
+        <h3>{{ partial "t.html" (dict "id" "Butuh penawaran perlengkapan kapal?" "en" "Need a ship supply quotation?") }}</h3>
+        <p>{{ partial "t.html" (dict "id" "Tim kami siap membantu kebutuhan kapal Anda di seluruh pelabuhan Indonesia." "en" "Our team is ready to support your vessel requirements at every port in Indonesia.") }}</p>
+      </div>
+      <a class="btn btn-get-started" href="{{ site.Params.whatsapp }}" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </aside>
+    {{ partial "article-prevnext.html" . }}
+  </div>
+  <div class="container gm-wide">{{ partial "related_posts.html" . }}</div>
 </section>
 {{ end }}

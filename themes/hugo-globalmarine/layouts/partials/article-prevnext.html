@@ -1,4 +1,6 @@
-<nav class="d-flex justify-content-between my-4 article-prevnext">
-  {{ with .PrevInSection }}<a class="btn btn-outline-secondary" href="{{ .RelPermalink }}">&laquo; {{ .Title | truncate 50 }}</a>{{ else }}<span></span>{{ end }}
-  {{ with .NextInSection }}<a class="btn btn-outline-secondary" href="{{ .RelPermalink }}">{{ .Title | truncate 50 }} &raquo;</a>{{ end }}
+{{ if or .PrevInSection .NextInSection }}
+<nav class="gm-prevnext" aria-label="Navigasi artikel">
+  {{ with .PrevInSection }}<a class="gm-pn gm-pn-prev" href="{{ .RelPermalink }}"><small><i class="fas fa-arrow-left"></i> {{ partial "t.html" (dict "id" "Sebelumnya" "en" "Previous") }}</small><span>{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+  {{ with .NextInSection }}<a class="gm-pn gm-pn-next" href="{{ .RelPermalink }}"><small>{{ partial "t.html" (dict "id" "Berikutnya" "en" "Next") }} <i class="fas fa-arrow-right"></i></small><span>{{ .Title }}</span></a>{{ end }}
 </nav>
+{{ end }}

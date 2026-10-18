@@ -10,6 +10,8 @@
     });
   }
 
+  var translatable = document.body.hasAttribute('data-translate');
+
   function setPlaceholders(lang) {
     var map = { name: ['Your Name', 'Nama Anda'], email: ['Your Email', 'Email Anda'], message: ['Your Message', 'Pesan Anda'] };
     Object.keys(map).forEach(function (id) {
@@ -22,19 +24,52 @@
     document.querySelectorAll('[data-lang]').forEach(function (el) {
       el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
     });
-    document.documentElement.lang = lang;
+    document.documentElement.setAttribute('data-ui-lang', lang);
     setPlaceholders(lang);
   }
 
+  // --- Google Translate (used only for article/blog text, which is written in Indonesian) ---
+  function setTransCookie(lang) {
+    var val = lang === 'en' ? '/id/en' : '';
+    var host = location.hostname;
+    var exp = lang === 'en' ? '' : '; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    document.cookie = 'googtrans=' + val + '; path=/' + exp;
+    document.cookie = 'googtrans=' + val + '; path=/; domain=' + host + exp;
+    var parts = host.split('.');
+    if (parts.length > 2) document.cookie = 'googtrans=' + val + '; path=/; domain=.' + parts.slice(-2).join('.') + exp;
+  }
+  function hasTransCookie() { return /(?:^|;\s*)googtrans=\/id\/en/.test(document.cookie); }
+  window.gmTranslateInit = function () {
+    new google.translate.TranslateElement({ pageLanguage: 'id', includedLanguages: 'en,id', autoDisplay: false }, 'google_translate_element');
+  };
+  function loadTranslate() {
+    if (document.getElementById('gt-script')) return;
+    var s = document.createElement('script');
+    s.id = 'gt-script';
+    s.src = 'https://translate.google.com/translate_a/element.js?cb=gmTranslateInit';
+    document.head.appendChild(s);
+  }
+
   var sel = document.getElementById('languageSelect');
+  var lang = 'id';
+  try { var saved = localStorage.getItem('gm-lang'); if (saved === 'en' || saved === 'id') lang = saved; } catch (e) {}
+  if (sel) sel.value = lang;
+  applyLang(lang);
+
+  if (translatable) {
+    if (lang === 'en') { if (!hasTransCookie()) setTransCookie('en'); loadTranslate(); }
+    else if (hasTransCookie()) { setTransCookie('id'); }
+  }
+
   if (sel) {
-    var saved = null;
-    try { saved = localStorage.getItem('gm-lang'); } catch (e) {}
-    if (saved === 'en' || saved === 'id') { sel.value = saved; }
-    applyLang(sel.value);
     sel.addEventListener('change', function () {
-      try { localStorage.setItem('gm-lang', this.value); } catch (e) {}
-      applyLang(this.value);
+      var l = this.value;
+      try { localStorage.setItem('gm-lang', l); } catch (e) {}
+      applyLang(l);
+      if (translatable) {
+        setTransCookie(l);
+        location.reload();
+      }
     });
   }
 
