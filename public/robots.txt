@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Disallow: /blog/page/
+Noindex: /blog/page/
+Disallow: /tags/*/page/
+Noindex: /tags/*/page/
+Disallow: /page/
+Noindex: /page/
+
+Sitemap: https://globalmarinejakarta-com.pages.dev/sitemap.xml
+Sitemap: https://globalmarinejakarta-com.pages.dev/sitemap.xml.gz
