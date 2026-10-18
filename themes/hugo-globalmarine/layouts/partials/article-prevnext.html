@@ -1,0 +1,4 @@
+<nav class="d-flex justify-content-between my-4 article-prevnext">
+  {{ with .PrevInSection }}<a class="btn btn-outline-secondary" href="{{ .RelPermalink }}">&laquo; {{ .Title | truncate 50 }}</a>{{ else }}<span></span>{{ end }}
+  {{ with .NextInSection }}<a class="btn btn-outline-secondary" href="{{ .RelPermalink }}">{{ .Title | truncate 50 }} &raquo;</a>{{ end }}
+</nav>

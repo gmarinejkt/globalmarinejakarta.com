@@ -1,0 +1,3 @@
+{{ if ge .Page.WordCount (int site.Params.tocMinWordCount) }}
+<nav class="toc card card-body mb-4"><strong>Daftar Isi</strong>{{ .Page.TableOfContents }}</nav>
+{{ end }}

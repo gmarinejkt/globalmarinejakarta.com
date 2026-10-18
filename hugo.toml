@@ -1,0 +1,51 @@
+baseURL = "https://globalmarinejakarta.com/"
+languageCode = "id"
+defaultContentLanguage = "id"
+title = "CV GLOBAL MARINE - Marine Offshore Supplier"
+theme = "hugo-globalmarine"
+summaryLength = 35
+paginate = 12
+enableRobotsTXT = false
+
+# Only tags are built as a taxonomy. `categories:` in front matter is informational.
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[params]
+  name = "CV GLOBAL MARINE"
+  description = "Indonesia's Premier Marine and Offshore Supply Solutions"
+  email = "globalmarinepriuk@yahoo.com"
+  emailSecondary = "supplyglobalmarinecv@gmail.com"
+  phoneOperational = "+62 812 8986 5224"
+  whatsappNumber = "6281289865224"
+  whatsapp = "https://api.whatsapp.com/send?phone=6281289865224&text=*Hallo%20Global%20Marine%20Jakarta*%20%3A"
+  address = "Jl. Baru Gg, 2 No.8, Cilincing, North Jakarta, JAKARTA, INDONESIA"
+  favicon = "/images/global-marine-cv-putih-51x51.png"
+  logo = "/images/global-marine-cv-putih-51x51.png"
+  logoLarge = "/images/global-marine-cv-putih-256x256.png"
+  defaultImage = "/images/global-marine-bg-3.png"
+  year = 2024
+  author = "CV Global Marine"
+  tocMinWordCount = 500
+  facebook = "https://www.facebook.com/Globalmarinejakarta/"
+  linkedin = "https://linkedin.com/in/ship-chandler-indonesia-a17aa476"
+  enableWhatsApp = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+  # Required by tools/lib/safe-table.js: AI-generated tables are rendered as raw HTML
+  # (<table class="table">), which Hugo only keeps when unsafe = true.
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"

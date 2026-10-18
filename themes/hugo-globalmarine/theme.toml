@@ -1,0 +1,6 @@
+name = "Hugo Global Marine"
+license = "MIT"
+description = "Tema CV Global Marine: landing page bilingual (EN/ID) + blog. Fitur blog diporting dari hugo-bangunan (kartu artikel, artikel terkait, prev/next, daftar isi, label Diperbarui)."
+min_version = "0.124.0"
+[author]
+  name = "CV Global Marine"

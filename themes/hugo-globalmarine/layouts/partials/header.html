@@ -1,0 +1,74 @@
+{{- $p := cond .IsHome "" "/" -}}
+    <!-- Navigation -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <img src="/images/global-marine-cv-putih-51x51.png" alt="GLOBAL MARINE JAKARTA Logo">
+          <span class="sitename">CV GLOBAL MARINE</span>
+        </a>
+        <div class="language-selector">
+          <select id="languageSelect" class="form-select form-select-sm">
+            <option value="en">EN</option>
+            <option value="id">ID</option>
+          </select>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ $p }}#hero" data-lang="en">Home</a>
+              <a class="nav-link" href="{{ $p }}#hero" data-lang="id" style="display:none;">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang="en">About Us</a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang="id" style="display:none;">Tentang Kami</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="{{ $p }}#about" data-lang="en">Company Overview</a>
+                  <a class="dropdown-item" href="{{ $p }}#about" data-lang="id" style="display:none;">Gambaran Perusahaan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="{{ $p }}#vision-mission" data-lang="en">Vision & Mission</a>
+                  <a class="dropdown-item" href="{{ $p }}#vision-mission" data-lang="id" style="display:none;">Visi & Misi</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="{{ $p }}#history" data-lang="en">Our History</a>
+                  <a class="dropdown-item" href="{{ $p }}#history" data-lang="id" style="display:none;">Sejarah Kami</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="{{ $p }}#certifications" data-lang="en">Certifications</a>
+                  <a class="dropdown-item" href="{{ $p }}#certifications" data-lang="id" style="display:none;">Sertifikasi</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang="en">Products & Services</a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-lang="id" style="display:none;">Produk & Layanan</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <li>
+                  <a class="dropdown-item" href="{{ $p }}#services" data-lang="en">Our Services</a>
+                  <a class="dropdown-item" href="{{ $p }}#services" data-lang="id" style="display:none;">Layanan Kami</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="{{ $p }}#supplies" data-lang="en">Supplies</a>
+                  <a class="dropdown-item" href="{{ $p }}#supplies" data-lang="id" style="display:none;">Persediaan</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ $p }}#customers" data-lang="en">Customers</a>
+              <a class="nav-link" href="{{ $p }}#customers" data-lang="id" style="display:none;">Pelanggan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog/">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ $p }}#contact" data-lang="en">Contact</a>
+              <a class="nav-link" href="{{ $p }}#contact" data-lang="id" style="display:none;">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>

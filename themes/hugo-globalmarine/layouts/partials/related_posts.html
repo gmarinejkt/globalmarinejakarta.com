@@ -1,0 +1,9 @@
+{{ $related := .Site.RegularPages.Related . | first 6 }}
+{{ with $related }}
+<section class="related-posts mt-5">
+  <h2 class="h4">Artikel Terkait</h2>
+  <div class="row">
+    {{ range . }}<div class="col-md-6 col-lg-4">{{ partial "post-card.html" . }}</div>{{ end }}
+  </div>
+</section>
+{{ end }}
