@@ -46,6 +46,4 @@ Memilih ship chandler Indonesia yang tepat adalah investasi penting bagi keberha
 
 Kami memahami bahwa waktu adalah aset berharga dalam industri maritim. Oleh karena itu, Kami berkomitmen memberikan layanan yang cepat dan tepat waktu. Tim Kami terdiri dari para profesional berpengalaman yang berdedikasi untuk memenuhi kebutuhan Anda. Kami juga menyediakan layanan konsultasi teknis untuk membantu Anda memilih produk yang paling sesuai dengan kebutuhan kapal Anda. Harga yang Kami tawarkan bersifat estimasi dan bisa berubah sewaktu-waktu — hubungi Kami untuk penawaran terbaru dan paling akurat sesuai kebutuhan kapal Anda.
 
-[[[PLACEHOLDER_N]]]
-
 Jangan ragu untuk menghubungi tim Kami — Mitra Global Marine siap membantu Anda. Hubungi Kami sekarang juga melalui tombol **WhatsApp** yang tersedia di bawah ini. [Ship Chandler Philippines: Panduan Lengkap untuk Pengadaan Perlengkapan Kapal](/blog/ship-chandler-philippines/)

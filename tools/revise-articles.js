@@ -282,6 +282,9 @@ function restoreStructure(content, placeholders) {
   return content.replace(/\[\[\[PLACEHOLDER_(\d+)\]\]\]/g, (_, idx) => placeholders[parseInt(idx, 10)] || '');
 }
 
+// Any placeholder-looking token, however malformed: [[[PLACEHOLDER_N]]], [[[PLACEHOLDER]]], [[[PLACEHOLDER_ 3 ]]] …
+const ANY_PLACEHOLDER_RE = /\[\[\[\s*PLACEHOLDER[^\]\n]*\]\]\]/gi;
+
 // Safety net: AI sometimes appends a trailing "finished" marker despite prohibition
 function stripTrailingMarker(content) {
   const trailingMarkerPattern = /^(ARTIKEL[_\s]?SELESAI|SELESAI|\[?END\]?|TAMAT)\.?$/i;
@@ -349,6 +352,11 @@ function cleanupAIChatter(text) {
 // ─── Validate revised output before saving ────────────────────────────────
 function validatePlaceholders(revisedProtected, placeholders) {
   const issues = [];
+  // The AI must not INVENT tokens (e.g. copying the literal "[[[PLACEHOLDER_N]]]" from an
+  // instruction) — only tokens that were really inserted by protectStructure() are legal.
+  const legal = new Set(placeholders.map((_, i) => `[[[PLACEHOLDER_${i}]]]`));
+  const stray = (revisedProtected.match(ANY_PLACEHOLDER_RE) || []).filter(tok => !legal.has(tok));
+  if (stray.length) issues.push(`AI output contains ${stray.length} invented/malformed placeholder token(s): ${[...new Set(stray)].join(', ')}`);
   for (let i = 0; i < placeholders.length; i++) {
     const token = `[[[PLACEHOLDER_${i}]]]`;
     const count = (revisedProtected.match(new RegExp(token.replace(/[[\]]/g, '\\$&'), 'g')) || []).length;
@@ -359,6 +367,10 @@ function validatePlaceholders(revisedProtected, placeholders) {
 
 function validateFinalContent(original, revisedContent, location) {
   const issues = [];
+  // Last line of defence: no placeholder token may ever reach a published article.
+  if (new RegExp(ANY_PLACEHOLDER_RE.source, 'i').test(revisedContent)) {
+    issues.push('Leftover [[[PLACEHOLDER…]]] token found in final content');
+  }
   if (location && !revisedContent.toLowerCase().includes(location.toLowerCase())) {
     issues.push(`Location name "${location}" not found in revised output`);
   }

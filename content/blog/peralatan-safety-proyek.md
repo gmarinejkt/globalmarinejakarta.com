@@ -55,4 +55,4 @@ Dalam pemilihan dan penggunaan peralatan safety proyek, Anda harus selalu meruju
 
 Sebagai contoh, untuk proyek pengelasan, Anda perlu memperhatikan standar AWS (American Welding Society) dan EN (European Norm) yang berkaitan dengan persyaratan keselamatan pengelasan.
 
-[[[PLACEHOLDER_N]]] Mitra Global Marine siap membantu Anda. Apabila Anda membutuhkan informasi lebih lanjut mengenai peralatan safety proyek, jangan ragu untuk menghubungi Kami melalui tombol **WhatsApp** yang tersedia di halaman ini. [Jual Peralatan Keselamatan Kapal di Indonesia: Panduan Lengkap untuk Operasi Maritim yang Aman](/blog/jual-peralatan-keselamatan-kapal-di-indonesia/)
+Mitra Global Marine siap membantu Anda. Apabila Anda membutuhkan informasi lebih lanjut mengenai peralatan safety proyek, jangan ragu untuk menghubungi Kami melalui tombol **WhatsApp** yang tersedia di halaman ini. [Jual Peralatan Keselamatan Kapal di Indonesia: Panduan Lengkap untuk Operasi Maritim yang Aman](/blog/jual-peralatan-keselamatan-kapal-di-indonesia/)
