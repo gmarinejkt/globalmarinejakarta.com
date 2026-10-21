@@ -1,7 +1,7 @@
 ---
 title: "Peralatan Safety Proyek: Panduan Lengkap untuk Keamanan Operasi Maritim"
 date: "2026-10-19"
-lastmod: "2026-10-19"
+lastmod: "2026-10-21"
 categories: ["blog"]
 focus_keyphrase: "peralatan safety proyek"
 meta_title: "Peralatan Safety Proyek: Panduan Lengkap untuk Keamanan Operasi Maritim - Global Marine"
@@ -34,7 +34,7 @@ Kebutuhan akan peralatan safety proyek bervariasi tergantung jenis pekerjaan yan
 
 ## Memilih Penyedia Peralatan Safety Proyek yang Andal
 
-Memilih penyedia peralatan safety proyek yang andal adalah kunci untuk memastikan kualitas dan keandalan produk yang Anda peroleh. Global Marine, sebagai *ship chandler* yang berpengalaman dan beroperasi di seluruh pelabuhan Indonesia, menyediakan beragam peralatan safety proyek yang memenuhi standar internasional. Kami memahami betul pentingnya kualitas dan ketersediaan stok untuk mendukung kelancaran operasi kapal Anda. 
+Memilih penyedia peralatan safety proyek yang andal adalah kunci untuk memastikan kualitas dan keandalan produk yang Anda peroleh. Global Marine, sebagai *ship chandler* yang berpengalaman dan beroperasi di seluruh pelabuhan Indonesia, menyediakan beragam [peralatan safety proyek yang memenuhi standar internasional](/blog/peralatan-safety-k3/). Kami memahami betul pentingnya kualitas dan ketersediaan stok untuk mendukung kelancaran operasi kapal Anda. 
 
 Pertimbangkan faktor-faktor berikut saat memilih suatu penyedia:
 

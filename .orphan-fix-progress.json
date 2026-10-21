@@ -1,0 +1,16 @@
+{
+  "fixed": [
+    "/blog/jual-peralatan-keselamatan-kapal-laut/",
+    "/blog/peralatan-safety-k3/",
+    "/blog/peralatan-safety-proyek/",
+    "/blog/peralatan-safety-terdekat/",
+    "/blog/perlengkapan-safety-k3/",
+    "/blog/perlengkapan-safety-riding-motor/",
+    "/blog/supplier-perlengkapan-kapal-jakarta-selatan/"
+  ],
+  "failed": {
+    "/blog/jual-peralatan-keselamatan-kapal-di-florida/": 1,
+    "/blog/peralatan-safety-untuk-bekerja-di-ketinggian/": 1,
+    "/blog/perlengkapan-safety-terdekat/": 1
+  }
+}
