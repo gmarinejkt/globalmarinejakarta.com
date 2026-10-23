@@ -124,5 +124,33 @@
     "matchedTitle": "Perlengkapan Safety K3 Kapal: Investasi Vital untuk Operasi Maritim yang Berkelanjutan",
     "taggedAt": "2026-10-21T11:20:34.999Z",
     "algoVersion": 2
+  },
+  "perlengkapan safety tambang": {
+    "reason": "similar to existing article",
+    "matchedFile": "perlengkapan-safety-k3.md",
+    "matchedTitle": "Perlengkapan Safety K3 Kapal: Investasi Vital untuk Operasi Maritim yang Berkelanjutan",
+    "taggedAt": "2026-10-23T11:10:39.505Z",
+    "algoVersion": 2
+  },
+  "daftar peralatan keselamatan wajib di kapal": {
+    "reason": "similar to existing article",
+    "matchedFile": "jual-peralatan-keselamatan-kapal-di-florida.md",
+    "matchedTitle": "Jual Peralatan Keselamatan Kapal di Florida: Panduan Lengkap dan Penyedia Terpercaya",
+    "taggedAt": "2026-10-23T11:10:39.508Z",
+    "algoVersion": 2
+  },
+  "jual peralatan keselamatan kapal": {
+    "reason": "similar to existing article",
+    "matchedFile": "jual-peralatan-keselamatan-kapal-di-florida.md",
+    "matchedTitle": "Jual Peralatan Keselamatan Kapal di Florida: Panduan Lengkap dan Penyedia Terpercaya",
+    "taggedAt": "2026-10-23T11:10:39.511Z",
+    "algoVersion": 2
+  },
+  "jual peralatan keselamatan kapal apa saja": {
+    "reason": "similar to existing article",
+    "matchedFile": "jual-peralatan-keselamatan-kapal-di-florida.md",
+    "matchedTitle": "Jual Peralatan Keselamatan Kapal di Florida: Panduan Lengkap dan Penyedia Terpercaya",
+    "taggedAt": "2026-10-23T11:10:39.511Z",
+    "algoVersion": 2
   }
 }
