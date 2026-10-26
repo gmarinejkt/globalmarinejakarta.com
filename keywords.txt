@@ -1,6 +1,4 @@
 daftar peralatan keselamatan wajib di kapal
-cara kerja sistem CO2 pemadam kapal
-apa itu ship chandler di pelabuhan
 supplier perlengkapan kapal jakarta utara
 supplier perlengkapan kapal jakarta timur
 supplier perlengkapan kapal jakarta barat
@@ -12,7 +10,6 @@ jual peralatan keselamatan kapal apa saja
 supplier bahan makanan kapal laut
 supplier bahan makanan kapal api
 supplier bahan makanan kapal pesiar
-supplier bahan makanan kapal api indonesia
 ship chandler indonesia
 supplier perlengkapan kapal jakarta
 jual peralatan keselamatan kapal

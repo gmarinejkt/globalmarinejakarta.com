@@ -180,5 +180,12 @@
     "matchedTitle": "Cara Menghitung Kebutuhan Bahan Makanan Kapal: Panduan Lengkap 2026",
     "taggedAt": "2026-10-24T10:28:03.372Z",
     "algoVersion": 2
+  },
+  "sewa air tugger winch": {
+    "reason": "similar to existing article",
+    "matchedFile": "perawatan-rutin-air-tugger-winch.md",
+    "matchedTitle": "Perawatan Rutin Air Tugger Winch: Panduan Lengkap untuk Operasi Optimal",
+    "taggedAt": "2026-10-26T12:26:04.982Z",
+    "algoVersion": 2
   }
 }
