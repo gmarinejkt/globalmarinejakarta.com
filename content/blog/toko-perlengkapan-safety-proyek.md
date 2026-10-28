@@ -1,7 +1,7 @@
 ---
 title: "Toko Perlengkapan Safety Proyek: Memastikan Keamanan dan Kepatuhan di Industri Maritim"
 date: "2026-10-21"
-lastmod: "2026-10-21"
+lastmod: "2026-10-28"
 categories: ["blog"]
 focus_keyphrase: "toko perlengkapan safety proyek"
 meta_title: "Toko Perlengkapan Safety Proyek: Memastikan Keamanan dan Kepatuhan di Industri Maritim - Global Marine"
@@ -39,7 +39,7 @@ Memilih *supplier* yang tepat adalah kunci untuk memastikan kualitas dan keandal
 
 Kami memahami bahwa setiap proyek memiliki kebutuhan yang unik. Karena itu, Kami menawarkan solusi yang fleksibel dan disesuaikan dengan anggaran serta persyaratan spesifik Anda. Kami juga menyediakan layanan pengiriman cepat dan tepat waktu ke seluruh pelabuhan di Indonesia, menjamin kelancaran proyek Anda tanpa gangguan.
 
-Selain perlengkapan *safety*, Global Marine juga menyediakan layanan *repair welding* dan *overhaul* mesin, serta sewa *air tugger winch* untuk mendukung operasional proyek Anda. Ini menjadikan Kami solusi *one-stop shopping* untuk seluruh kebutuhan perlengkapan kapal dan proyek maritim Anda.
+Selain perlengkapan *safety*, Global Marine juga menyediakan layanan [repair welding](/blog/jasa-repair-welding-kapal/) dan *overhaul* mesin, serta sewa *air tugger winch* untuk mendukung operasional proyek Anda. Ini menjadikan Kami solusi *one-stop shopping* untuk seluruh kebutuhan perlengkapan kapal dan proyek maritim Anda.
 
 Berikut adalah perbandingan beberapa jenis tali tambang yang sering digunakan dalam proyek maritim:
 

@@ -1,7 +1,7 @@
 ---
 title: "Perawatan Rutin Air Tugger Winch: Panduan Lengkap untuk Operasi Optimal"
 date: "2026-10-25"
-lastmod: "2026-10-25"
+lastmod: "2026-10-28"
 categories: ["blog"]
 focus_keyphrase: "perawatan rutin air tugger winch"
 meta_title: "Perawatan Rutin Air Tugger Winch: Panduan Lengkap untuk Operasi Optimal - Global Marine"
@@ -16,7 +16,7 @@ draft: false
 
 ## Mengapa Perawatan Rutin Air Tugger Winch Sangat Penting
 
-Kegagalan fungsi air tugger winch dapat berakibat fatal: penundaan operasional yang merugikan, kerusakan pada peralatan lain, bahkan menimbulkan risiko kecelakaan kerja. Program perawatan rutin yang efektif memungkinkan identifikasi dini dan penanganan masalah potensial sebelum berkembang menjadi kerusakan serius. Ini mencakup inspeksi visual berkala, aplikasi pelumas yang tepat, penyesuaian komponen, dan penggantian bagian-bagian yang telah aus. Dengan berinvestasi dalam perawatan preventif, Anda secara signifikan mengurangi potensi *downtime* yang tidak terduga serta biaya perbaikan yang membengkak. Global Marine siap mendukung kebutuhan perawatan winch Anda dengan solusi komprehensif.
+Kegagalan fungsi air tugger winch dapat berakibat fatal: penundaan operasional yang merugikan, kerusakan pada peralatan lain, bahkan menimbulkan risiko kecelakaan kerja. Program perawatan rutin yang efektif memungkinkan identifikasi dini dan penanganan masalah potensial sebelum berkembang menjadi kerusakan serius. Ini mencakup inspeksi visual berkala, aplikasi pelumas yang tepat, penyesuaian komponen, dan penggantian bagian-bagian yang telah aus. Dengan berinvestasi dalam perawatan preventif, Anda secara signifikan mengurangi potensi *downtime* yang tidak terduga serta biaya perbaikan yang membengkak. Global Marine siap mendukung kebutuhan perawatan winch Anda dengan solusi komprehensif, termasuk layanan [overhaul mesin kapal](/blog/overhaul-mesin-kapal/) untuk memastikan seluruh sistem penggerak kapal beroperasi secara optimal.
 
 ## Daftar Periksa Harian dan Mingguan untuk Operator
 
