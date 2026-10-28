@@ -187,5 +187,12 @@
     "matchedTitle": "Perawatan Rutin Air Tugger Winch: Panduan Lengkap untuk Operasi Optimal",
     "taggedAt": "2026-10-26T12:26:04.982Z",
     "algoVersion": 2
+  },
+  "peralatan safety listrik": {
+    "reason": "similar to existing article",
+    "matchedFile": "peralatan-safety-k3.md",
+    "matchedTitle": "Peralatan Safety K3 Kapal: Panduan Lengkap dan Pemilihan Tepat di 2026",
+    "taggedAt": "2026-10-28T12:18:24.910Z",
+    "algoVersion": 2
   }
 }
