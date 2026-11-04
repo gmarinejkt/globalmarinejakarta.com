@@ -1,7 +1,7 @@
 ---
 title: "Cara Menghitung Kebutuhan Bahan Makanan Kapal: Panduan Lengkap 2026"
 date: "2026-10-23"
-lastmod: "2026-10-23"
+lastmod: "2026-11-04"
 categories: ["blog"]
 focus_keyphrase: "cara menghitung kebutuhan bahan makanan kapal"
 meta_title: "Cara Menghitung Kebutuhan Bahan Makanan Kapal: Panduan Lengkap 2026 - Global Marine"
@@ -16,7 +16,7 @@ draft: false
 
 ![Cara Menghitung Kebutuhan Bahan Makanan Kapal: Panduan Lengkap 2026](/images/artikel/cara-menghitung-kebutuhan-bahan-makanan-kapal.jpg)
 
-Menghitung kebutuhan bahan makanan kapal bukanlah proses sederhana yang didasarkan pada preferensi kru semata. Aktivitas ini membutuhkan pertimbangan mendalam terhadap berbagai variabel—mulai dari lama pelayaran, jumlah anggota kapal, intensitas pekerjaan yang dilakukan, hingga regulasi yang berlaku. Global Marine siap menjadi mitra terpercaya Anda dalam menghadirkan solusi pasokan yang andal dan tepat sasaran.
+Menghitung kebutuhan bahan makanan kapal bukanlah proses sederhana yang didasarkan pada preferensi kru semata. Aktivitas ini membutuhkan pertimbangan mendalam terhadap berbagai variabel—mulai dari lama pelayaran, jumlah anggota kapal, intensitas pekerjaan yang dilakukan, hingga regulasi yang berlaku. Global Marine siap menjadi mitra terpercaya Anda dalam menghadirkan solusi pasokan yang andal dan tepat sasaran, termasuk dengan layanan dari [supplier bahan makanan kapal](/blog/supplier-bahan-makanan-kapal-api-indonesia/).
 
 ### Memahami Konsumsi Harian Setiap Personel
 
